@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Center</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header class="navbar" id="navbar">
+        <div class="container">
+            <div class="navbar-div">
+                <div class="navbar-logo">
+                    <img class="logo" src="images/logo.png" alt="top-logo">
+                </div>
+                <div class="menu">
+                    <a href="">Home</a>
+                    <a href="#classes">Classes</a>
+                    <a href="#trainers">Trainer</a>
+                    <a href="#review">Review</a>
+                    <a href="#contact-us">Contact</a>
+                    <a class="join-us" href="">JOIN US</a>
+                </div>
+
+            </div>
+            
+
+        </div>
+
+
+    </header>
+
+    <section class="header-content">
+        <div class="container">
+            <div class="powerfull-content">
+                <h2 class="powerfull">POWERFULL</h2>
+                <div class="title-h1">
+                    <h1>Group <br>Practice <br>With Trainer</h1>
+                </div>
+                <div class="desc-box">
+                    <h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint odio autem totam officiis sequi iusto dignissimos numquam distinctio, reiciendis sapiente suscipit et. Autem a excepturi ipsa tenetur reiciendis totam provident aperiam fugit saepe ratione! Nemo cumque voluptatum labore hic, rem quam beatae laboriosam voluptatibus facilis harum earum doloremque natus culpa!
+                    </h2>
+                </div>
+                <div class="header-buttons">
+                    <a href="#sign-up" class="sign-up">Sing Up</a>
+                    <a href="#details" class="details">Details</a>
+                </div>
+                
+            </div>
+
+        </div>
+        
+        
+
+    </section>
+    
+            <!-- BOXES-->
+    <section class="top-info blueish-background ">
+        <div class="container">
+            <div class="boxes">
+                <div class="top-box">
+                    <h2>325</h2>
+                    <h3>Course</h3>
+                </div>
+                <div class="top-box">
+                    <h2>405</h2>
+                    <h3>Work Out</h3>
+                </div>
+                <div class="top-box">
+                    <h2>305</h2>
+                    <h3>Working Hour</h3>
+                </div>
+                <div class="top-box">
+                    <h2>705</h2>
+                    <h3>Happy Client</h3>
+                </div>
+            </div>
+
+
+        </div>
+        
+    </section>
+        <!-- Classes Section -->
+
+
+    <section class="classes white-background" id="classes">
+        <div class="container">
+            <h1 class="sections-title" >OUR CLASSES</h1>
+            <div class="yellow-line"></div>
+            <div class="classes-header">
+                <p class="solo-mid-content ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo libero, possimus quasi exercitationem ad delectus. Quaerat ducimus minima impedit modi!</p>
+            </div>
+            <div class="classes-buttons-container">
+                <div class="classes-buttons classes-buttons-left">
+                    <button class="classes-button active" onclick="showContent('yoga')">Yoga</button>
+                </div>
+                <div class="classes-buttons classes-buttons-right">
+                    <button class="classes-button" onclick="showContent('group')">Group</button>
+                </div>
+                <div class="classes-buttons classes-buttons-left">
+                    <button class="classes-button" onclick="showContent('solo')">Solo</button>
+                </div>
+                <div class="classes-buttons classes-buttons-right">
+                    <button class="classes-button" onclick="showContent('stretching')">Stretching</button>
+                </div>
+
+            </div>
+
+            <div class="classes-content">
+                <div class="content-container" id="yogaContent">
+                    <div class="text-box">
+                        <h2>Why are your Yoga?</h2>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam quae sequi beatae explicabo numquam unde sapiente at minus vitae.</h3>
+                        <h2>When comes Yoga Your Time.</h2>
+                        
+                        <h3> Saturday-Sunday 8:00am - 10:00am</h3>   
+                        <h3> Monday-Tuesday:10:00am - 12:00pm </h3>
+                        <h3> Wednesday-Friday: 3:00pm-6:00pm</h3>
+                    </div>
+                    <div class="image-box">
+                        <img class="classes-pics" id="yogaPic" src="images/yoga.jpg" alt="Yoga" >
+                    </div>
+                    
+                </div>
+    
+                <div class="content-container" id="groupContent" style="display: none;" >
+                    <div class="text-box">
+                        <h2>Why are your Group?</h2>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam quae sequi beatae explicabo numquam unde sapiente at minus vitae.</h3>
+                        <h2>When comes Group Your Time.</h2>
+                        <h3> Saturday-Sunday 8:00am - 10:00am</h3>   
+                        <h3> Monday-Tuesday:10:00am - 12:00pm </h3>
+                        <h3> Wednesday-Friday: 3:00pm-6:00pm</h3>
+                    </div>
+                    <div class="image-box">
+                        <img class="classes-pics" id="groupPic" src="images/group.webp" alt="Group">
+                    </div>
+                    
+                </div>
+                <div class="content-container" id="soloContent" style="display: none;" >
+                    <div class="text-box">
+                        <h2>Why are your Solo?</h2>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam quae sequi beatae explicabo numquam unde sapiente at minus vitae.</h3>
+                        <h2>When comes Solo Your Time.</h2>
+                        <h3> Saturday-Sunday 8:00am - 10:00am</h3>   
+                        <h3> Monday-Tuesday:10:00am - 12:00pm </h3>
+                        <h3> Wednesday-Friday: 3:00pm-6:00pm</h3>                    </div>
+                    <div class="image-box">
+                        <img class="classes-pics" id="soloPic" src="images/solo.jpg" alt="Solo">
+                    </div>
+                    
+                </div>
+                <div class="content-container" id="stretchingContent" style="display: none;" >
+                    <div class="text-box">
+                        <h2>Why are your Stretching?</h2>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam quae sequi beatae explicabo numquam unde sapiente at minus vitae.</h3>
+                        <h2>When comes Stretching Your Time.</h2>
+                        <h3> Saturday-Sunday 8:00am - 10:00am</h3>   
+                        <h3> Monday-Tuesday:10:00am - 12:00pm </h3>
+                        <h3> Wednesday-Friday: 3:00pm-6:00pm</h3>                    </div>
+                    <div class="image-box">
+                        <img class="classes-pics" id="stretchingPic" src="images/stret.webp" alt="Stretching" >
+                    </div>
+                        
+                </div>
+
+    
+                
+
+            </div>
+           
+
+            
+
+
+        </div>
+    </section>
+        <!-- BMI Section -->
+
+
+    <section class="bmi-section">
+        <div class="container">
+            <div class="bmi-container half-container">
+                <div class="bmi-text-box">
+                    <h1 class="bmi-title">BMI Calculator</h1>
+                    <h3>Contrary to popular belief, Lorem Ipsum is not simply
+                        randam text. İt has roots in a piece Of classical Latin
+                        literatüre from 45 BC, making it over 2000 years old.</h3>
+                    <h3>Contrary to popular belief, Lorem Ipsum İs not simply
+                        random tut. İt has roots in a piece Of classical Latin
+                        literature from 45 BC, making it ovar 2000 years old.</h3>
+                    <div class="input-container">
+                        <div class="input-box">
+                            <input
+                                type="text"
+                                id="height"
+                                name="height"
+                                placeholder="Your Height"
+                                oninput="calculateBMI()"
+                            />
+                            <label for="height">cm</label>
+                        </div>
+    
+                        <div class="input-box">
+                            <input
+                                type="text"
+                                id="weight"
+                                name="weight"
+                                placeholder="Your Weight"
+                                oninput="calculateBMI()"
+                            />
+                            <label for="weight">kg</label>
+                        </div>
+                    </div>
+                    <div id="bmiResult"></div>
+                </div>
+                <div class="bmi-image-box">
+                    <h1>Your BMI</h1>
+                    <img class="bmi-img" src="images/bmi-index.jpg" alt="BMI">
+                    <div class="yellow-arrow" id="yellow-arrow"></div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- TRAINER SECTION -->
+
+    <section class="trainers blueish-background" id="trainers">
+        <div class="container">
+            <h1 class="sections-title">OUR BEST TRAINERS</h1>
+            <div class="yellow-line"></div>
+            <div class="solo-mid-content">
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam qui repellat ipsum corrupti. Velit cum, eum quisquam consequuntur hic nesciunt?</h3>
+            </div>
+            <div class="trainers-img-container section-img-box">
+                <div class="trainers-img-box">
+                    <img class="trainers-img  border-r-l" src="images/trainer1.jpg" alt="trainer1">
+                    <!--
+                    <div class="trainer-info">
+                    <h2>Trainer1</h2>
+                    <h3>Trainer1</h3>
+                    </div>
+                     -->
+                    
+                </div>
+                <div class="trainers-img-box border-t-b">
+                    <img class="trainers-img  border-r-l" src="images/trainer2.jpg" alt="trainer2">
+                    <!--
+                    <div class="trainer-info">
+                    <h2>Trainer1</h2>
+                    <h3>Trainer1</h3>
+                    </div>
+                     -->
+                </div>
+                <div class="trainers-img-box">
+                    <img class="trainers-img  border-r-l" src="images/trainer3.jpg" alt="trainer3">
+                    <!--
+                    <div class="trainer-info">
+                    <h2>Trainer1</h2>
+                    <h3>Trainer1</h3>
+                    </div>
+                     -->
+                </div>
+                
+            </div>
+        
+        </div>
+            
+
+    </section>
+
+        <!-- Purchase Section -->
+
+
+    <section class="purchase white-background" id="purchase">
+        <div class="container">
+            <h1 class="sections-title">PURCHASE FROM US</h1>
+            <div class="yellow-line"></div>
+            <div class="solo-mid-content">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facilis? Delectus aut dolorum earum architecto, in eaque quos voluptate est.</h3>
+            </div>
+            <div class="purchase-img-container section-img-box">
+                <div class="purchase-img-box">
+                    <img class="purchase-img" src="images/purchase1.jpg" alt="purchase1">
+                    <div class="purchase-info-box">
+                        <h2>Kettlebell / 5kg </h2>
+                        <h3><span class="crossed-out">89,99$</span> / 59,99$</h3>
+                        <div class="adding-cart-section">
+                            <img class="purchase-cart" src="images/purchase_cart.png" alt="purchase">
+                            <h3 class="add-to-cart">Add to Card</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="purchase-img-box">
+                    <img class="purchase-img" src="images/purchase2.jpg" alt="purchase1">
+                    <div class="purchase-info-box">
+                        <h2>Treadmill</h2>
+                        <h3><span class="crossed-out">899,99$</span> / 599,99$</h3>
+                        <div class="adding-cart-section">
+                            <img class="purchase-cart" src="images/purchase_cart.png" alt="purchase">
+                            <h3 class="add-to-cart">Add to Card</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="purchase-img-box">
+                    <img class="purchase-img" src="images/purchase3.jpg" alt="purchase1">
+                    <div class="purchase-info-box">
+                        <h2>Adjustable Dumbbell</h2>
+                        <h3><span class="crossed-out">89,99$</span> / 59,99$</h3>
+                        <div class="adding-cart-section">
+                            <img class="purchase-cart" src="images/purchase_cart.png" alt="purchase">
+                            <h3 class="add-to-cart">Add to Card</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="purchase-img-box">
+                    <img class="purchase-img" src="images/purchase4.jpg" alt="purchase1">
+                    <div class="purchase-info-box">
+                        <h2>Kettlebell / 3kg </h2>
+                        <h3><span class="crossed-out">89,99$</span> / 59,99$</h3>
+                        <div class="adding-cart-section">
+                            <img class="purchase-cart" src="images/purchase_cart.png" alt="purchase">
+                            <h3 class="add-to-cart">Add to Card</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+    <!-- Review Section -->
+
+    <section class="review blueish-background" id="review">
+        <div class="container">
+            <h1 class="sections-title">REVIEW CLIENT</h1>
+            <div class="yellow-line"></div>
+            <div class="solo-mid-content">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam unde sequi dolorem inventore deserunt fugit harum ipsa, dolor impedit.</h3>
+            </div>
+            <div class="review-container half-container">
+                <div class="left-half">
+                    <div class="review-img-box">
+                        <img class="review-img" src="images/client1.jpg" alt="CFO">
+                        <div class="img-text">
+                            <h3 class="review-manager">Diet Expert </h3>
+                            <h3 class="review-manager-title">CFO</h3>
+
+                        </div>
+
+                    </div>
+                    <div class="review-text-box">
+                        <h3 class="review-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde soluta tempore porro culpa sunt mollitia ratione repudiandae fuga corporis. Cupiditate, nesciunt velit odit debitis rerum blanditiis molestias, odio, cumque distinctio saepe adipisci reprehenderit vitae laudantium tempore ipsum autem iusto numquam.</h3>
+                    </div>
+
+                </div>
+                <div class="right-half">
+                    <div class="review-img-box">
+                        <img class="review-img" src="images/client2.jpg" alt="CEO">
+                        <div class="img-text">
+                            <h3 class="review-manager">Cardio Trainer </h3>
+                            <h3 class="review-manager-title">CEO</h3>
+
+                        </div>
+                    </div>
+                    <div class="review-text-box">
+                        <h3 class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi recusandae beatae tempora officia eius aut doloremque porro commodi et necessitatibus possimus sequi sed in iusto facere vero labore quod quaerat, minima odit explicabo, doloribus tenetur? Expedita corporis modi eligendi? Facilis animi ex consequuntur quaerat nesciunt nihil repellat. Illum, laboriosam enim.</h3>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+        <!-- Contact Us Section -->
+
+    <section class="contact-us white-background" id="contact-us">
+        <div class="container">
+            <h1 class="sections-title">CONTACT US</h1>
+            <div class="yellow-line"></div>
+            <div class="solo-mid-content">
+                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ipsa ea minima, nesciunt perspiciatis accusamus debitis cupiditate autem sunt eveniet?</h3>
+            </div>
+
+            <div class="contact-us-container half-container">
+                <div class="left-half">
+                    <div class="info-box">
+                        <div class="mobile-number">
+                            <h2>Mobile Number</h2>
+                            <h3>+135 773 321 4442</h3>
+                        </div>
+                        <div class="email-address">
+                            <h2>Email Address</h2>
+                            <h3>demo@demo.com</h3>
+                        </div>
+                    </div>
+                    <div class="message-box">
+                        <h1>Make An Appoinment</h1>
+                        <div class="fr1-box">
+                            <input class=" contact-boxes"
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Your Name"
+                            />
+                        </div>
+                        <div class="fr1-box">
+                            <input class=" contact-boxes"
+                                type="text"
+                                id="email"
+                                name="email"
+                                placeholder="Your Email"
+                            />
+                        </div>
+                        <div class="fr2-box">
+                            <input class=" contact-boxes fr2"
+                                type="text"
+                                id="message"
+                                name="message"
+                                placeholder="Your Message"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="right-half map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074160.7247336176!2d72.10663427767852!3d41.19757353558106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6fc19cb959b1a04d%3A0x8f6754680707122e!2sTuvalu!5e0!3m2!1str!2str!4v1706906079583!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-header">
+                <div class="footer-img-container">
+                    <img src="images/logo.png" alt="logo">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, perspiciatis quis? Ex distinctio repudiandae quibusdam quas in. Recusandae, porro! Autem consequatur soluta ipsa, quas quae corrupti. Itaque velit facere accusantium.</h3>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="information">
+                    <h1>Information</h1>
+                    <h3>About Us</h3>
+                    <h3>Classes</h3>
+                    <h3>Blog</h3>
+                    <h3>Contact</h3>
+
+                </div>
+                <div class="helpful">
+                    <h1>Helpful Links</h1>
+                    <h3>Services</h3>
+                    <h3>Supports</h3>
+                    <h3>Terms & Condition</h3>
+                    <h3>Privacy Policy</h3>
+
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+
+    
+    
+</body>
+</html>
